@@ -35,6 +35,7 @@ class MapComponent extends Component {
   componentDidMount() {
   }
 
+  // Built-In Method
   componentDidUpdate(prevProps) {
     if (prevProps.center !== this.props.center) {
       var last_color;
